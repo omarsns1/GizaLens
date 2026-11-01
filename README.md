@@ -46,4 +46,44 @@ GizaLens/
             └── Book4/
 \`\`\`
 
-The repository includes a small sample of the dataset for the live demo. The wider preprocessing and evaluation experiments
+The repository includes a small sample of the dataset for the live demo. The wider preprocessing and evaluation experiments used a larger working collection.
+
+## Run locally
+
+Clone the repository:
+
+\`\`\`bash
+git clone https://github.com/omarsns1/GizaLens.git
+cd GizaLens
+\`\`\`
+
+Install dependencies:
+
+\`\`\`bash
+pip install -r requirements.txt
+\`\`\`
+
+Ensure the dataset is placed inside `data/raw/`, then launch the application:
+
+\`\`\`bash
+streamlit run app.py
+\`\`\`
+
+## Technologies
+
+- **Python** — data processing and application logic
+- **Streamlit** — interactive web interface
+- **python-docx** — extracting manuscript transcriptions
+- **Machine Learning** — handwriting-recognition experimentation and evaluation
+
+## Future directions
+
+- Improve alignment between manuscript images and their transcriptions.
+- Establish a verified line-level evaluation dataset.
+- Experiment with Arabic handwriting-recognition models.
+- Explore historical entity extraction and knowledge graphs.
+- Develop evidence-linked search across digitised manuscripts.
+
+## Project status
+
+GizaLens is an ongoing independent research project. Its current focus is dataset preparation, inspection, and evaluation, with the longer-term goal of making historical Arabic handwritten material more accessible through machine learning.
