@@ -1,0 +1,10 @@
+﻿*.zip
+GizaLens_starter/
+Historical_Dataset/
+data/raw/
+data/processed/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
